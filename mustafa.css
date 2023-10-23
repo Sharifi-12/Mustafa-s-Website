@@ -39,9 +39,10 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #0d023b;
+    color: #fff;
     font-size: 20px;
 }
+
 .row{
     display: flex;
     height: 88%;
@@ -60,25 +61,49 @@ p{
     line-height: height 15px; ;
 }
 button{
-    width: 180px;
-    color: #000;
-    font: size 12px; 
-    padding: 12px 0;
-    background: #db8686;
-    border: o;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+        background:#009688;
+        height: 100%;
+        width: 0;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 1s;
 }
 .card{
     width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
-    box-sizing: border-box;
+    box-sizing: border-bo    x;
     cursor: pointer;
-    margin: 10px 15px;
     background-image:url(s-l1600.jpg) ;
     background-position: center;
     background-size:cover ;
